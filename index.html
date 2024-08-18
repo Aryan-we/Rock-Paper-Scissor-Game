@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor</h1>
+        <div class="score">
+            <div class="user">
+                <h2>My Score: </h2>&nbsp;&nbsp;
+                <h2 id="myScore"></h2>
+            </div>
+            <div class="computer">
+                <h2>Computer Score: </h2>&nbsp;&nbsp;
+                <h2 id="computerScore"></h2>
+            </div>
+        </div>
+        <div class="show">
+            <div class="usershow">
+                <h2>User</h2>
+                <img id="userImage" src="" alt="" width="20%">
+            </div>
+            <div class="computershow">
+                <h2>Computer</h2>
+                <img id="computerImage" src="" alt="" width="20%">
+            </div>
+        </div>
+            <div class="result">
+                <h2>Result</h2>&nbsp;&nbsp;
+                <h2 id="result"></h2>
+            </div>
+            <div class="img">
+                <img onclick="myFunc1()" src="./photo/rock.jpg" alt="" width="10%">
+                <img onclick="myFunc2()" src="./photo/paper.jpg" alt="" width="6%">
+                <img onclick="myFunc3()" src="./photo/scissor.jpg" alt="" width="8%">
+            </div>
+        
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>

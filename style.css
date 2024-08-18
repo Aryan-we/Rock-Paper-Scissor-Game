@@ -1,0 +1,57 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    background-color: white;
+    color: black;
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+.user,.computer{
+    display: flex;
+    justify-content: center;
+}
+.score .computer{
+    border: 0px solid;
+    margin-left: 50px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    border-radius: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+#result{
+    color: green;
+}
+.show{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+}
+.show .usershow,.computershow{
+    width:50%;
+    border: 0px solid;
+}
+.score #myScore,#computerScore{
+    color:red;
+}
+ .score .user,.computer{
+    width:30%;
+    border: 0px solid;
+}
