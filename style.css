@@ -56,12 +56,19 @@ h1{
     border: 0px solid;
 }
 @media (max-width:800px){
-.show .usershow,.computershow{
-    width:70%; 
-}
-.img img{
-    border-radius: 10px;
-    margin: 0px 10px;
-    cursor: pointer;
-}
+   .img .img1{
+    width: 25%;
+   }
+   .img2{
+    width:18%;
+   }
+   .img3{
+    width:20%;
+   }
+   #userImage{
+    width:40%;
+   }
+   #computerImage{
+    width:40%;
+   }
 }
