@@ -56,13 +56,13 @@ h1{
     border: 0px solid;
 }
 @media (max-width:800px){
-   .img1{
+   #img1{
     width: 35%;
    }
-   .img2{
+   #img2{
     width:28%;
    }
-   .img3{
+   #img3{
     width:30%;
    }
    #userImage{
