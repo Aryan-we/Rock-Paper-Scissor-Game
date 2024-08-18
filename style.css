@@ -55,14 +55,13 @@ h1{
     width:30%;
     border: 0px solid;
 }
-@media (max-width:500px){
+@media (max-width:800px){
 .show .usershow,.computershow{
     width:70%; 
 }
-    .img img{
+.img img{
     border-radius: 10px;
     margin: 0px 10px;
     cursor: pointer;
 }
-#res
 }
