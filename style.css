@@ -1,10 +1,10 @@
-tbody{
+body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 .container{
-    border: 1px solid;
+    border: 0px solid;
     text-align: center;
     background-color: white;
     height: 100vh;
