@@ -12,7 +12,7 @@ if (matchInput === null) {
         document.location.reload();
     }
 
-    let m_count = -1;
+    let m_count = 0;
     let user = 0;
     let computer = 0;
 
@@ -34,6 +34,7 @@ if (matchInput === null) {
     }
 
     function playRound(userChoice) {
+    endGame();
         if (m_count >= match) return;
 
         let c = Math.floor(Math.random() * 3);
@@ -62,7 +63,7 @@ if (matchInput === null) {
         }
 
         m_count++;
-        endGame();
+        
     }
 
     window.myFunc1 = () => playRound("rock");
